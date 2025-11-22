@@ -29,7 +29,7 @@ type GameSave = {
 
 // Calculate score based on time and attempts
 function calculateScore(completionTime: number, totalAttempts: number): number {
-  const maxTime = 300; // 45 minutes
+  const maxTime = 600; // 45 minutes
   const timeBonus = Math.max(0, maxTime - completionTime) * 10;
   const attemptPenalty = totalAttempts * 50;
   const baseScore = 10000;

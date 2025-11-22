@@ -112,7 +112,7 @@ export function StartScreen({ onStart, onViewLeaderboard }: StartScreenProps) {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.7 }}
                   >
-                    <Badge className="bg-red-600">⏱️ 5 Minutes</Badge>
+                    <Badge className="bg-red-600">⏱️ 10 Minutes</Badge>
                     <Badge className="bg-amber-600">🧩 5 Rooms</Badge>
                     <Badge className="bg-green-600">🧠 Mind-Bending Puzzles</Badge>
                   </motion.div>

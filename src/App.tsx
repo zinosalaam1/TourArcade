@@ -34,7 +34,7 @@ export default function App() {
   const [gameState, setGameState] = useState<GameState>({
     currentRoom: 1,
     inventory: [],
-    timeRemaining: 300, // 10 minutes in seconds
+    timeRemaining: 600, // 10 minutes in seconds
     gameStatus: 'menu',
     roomsCompleted: [false, false, false, false, false],
     playerName: 'Anonymous Hacker',
@@ -131,7 +131,7 @@ export default function App() {
     setGameState({
       currentRoom: 1,
       inventory: [],
-      timeRemaining: 300, // 10 minutes
+      timeRemaining: 600, // 10 minutes
       gameStatus: 'playing',
       roomsCompleted: [false, false, false, false, false],
       playerName,
@@ -146,7 +146,7 @@ export default function App() {
       ...prev,
       currentRoom: 1,
       inventory: [],
-      timeRemaining: 300, // 10 minutes
+      timeRemaining: 600, // 10 minutes
       gameStatus: 'menu',
       roomsCompleted: [false, false, false, false, false],
       totalAttempts: 0,
