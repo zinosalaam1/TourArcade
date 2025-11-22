@@ -196,7 +196,7 @@ export default function App() {
 
   const submitScore = async () => {
     try {
-      const completionTime = 300 - gameState.timeRemaining; // Using 10 minutes (600 seconds)
+      const completionTime = 600 - gameState.timeRemaining; // Using 10 minutes (600 seconds)
       const response = await fetch(
         `https://${projectId}.supabase.co/functions/v1/make-server-fb1751b5/leaderboard`,
         {
